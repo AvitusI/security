@@ -56,9 +56,9 @@ const Login = () => {
                     <div className="text-center space-y-2">
                         <div className="flex items-center justify-center mb-8">
                             <div className="w-8 h-8 bg-red-500 rounded-lg flex items-center justify-center">
-                                <span className="text-white font-bold text-lg">A</span>
+                                <span className="text-white font-bold text-lg">N</span>
                             </div>
-                            <span className="ml-2 text-white text-xl font-semibold">anima</span>
+                            <span className="ml-2 text-white text-xl font-semibold">Nobizz</span>
                         </div>
                         <h1 className="text-3xl font-bold text-white">Welcome Back</h1>
                         <p className="text-gray-400">

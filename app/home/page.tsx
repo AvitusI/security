@@ -11,8 +11,8 @@ import Link from "next/link";
 
 const Dashboard = () => {
     const [user] = useState({
-        name: "John Doe",
-        email: "john.doe@example.com",
+        name: "User",
+        email: "mail@email.com",
         avatar: null
     });
 

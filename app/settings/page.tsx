@@ -13,8 +13,8 @@ import { LogOut, Settings, User, Bell, Shield, Eye, Mail, Globe } from "lucide-r
 
 const SettingsPage = () => {
     const [user] = useState({
-        name: "John Doe",
-        email: "john@example.com",
+        name: "User",
+        email: "mail@email.com",
         avatar: null
     });
 
