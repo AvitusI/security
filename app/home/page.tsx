@@ -7,6 +7,7 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { LogOut, Settings, User, Bell, BarChart3, Calendar, FileText, Plus } from "lucide-react";
 import { getSupabaseBrowserClient } from "@/supabase-utils/browserClient"
+import Link from "next/link";
 
 const Dashboard = () => {
     const [user] = useState({
@@ -61,9 +62,11 @@ const Dashboard = () => {
                             <Button variant="ghost" size="sm" className="text-gray-400 hover:text-white">
                                 <Bell className="h-5 w-5" />
                             </Button>
-                            <Button variant="ghost" size="sm" className="text-gray-400 hover:text-white">
-                                <Settings className="h-5 w-5" />
-                            </Button>
+                            <Link href="/settings">
+                                <Button variant="ghost" size="sm" className="text-gray-400 hover:text-white">
+                                    <Settings className="h-5 w-5" />
+                                </Button>
+                            </Link>
                             <div className="flex items-center space-x-3">
                                 <div className="w-8 h-8 bg-gray-600 rounded-full flex items-center justify-center">
                                     <User className="h-4 w-4 text-gray-300" />
